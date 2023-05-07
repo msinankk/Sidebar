@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <link rel="stylesheet" href="/static/ionicons-2.0.1/css/ionicons.min.css" />
+    <title>Sidebar</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar" id="sidebar">
+        <div class="sidebar-profile">
+          <div class="profile-image-container profile-image-container-collapsed">
+            <img
+              class="profile-image"
+              src="media/avatar1.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+        <a class="sidebar-item sidebar-item-active nav-item--dropdown">
+          <div class="nav-item-icon">
+            <i class="ion ion-ios-location"></i>
+          </div>
+          <span class="nav-item ">#item1</span>
+        </a>
+        <div class="dropdown-items dropdown-items--hidden">
+          <span class="dropdown-item">#child item1</span>
+          <span class="dropdown-item">#child item2</span>
+          <span class="dropdown-item">#child item3</span>
+          <span class="dropdown-item">#child item4</span>
+        </div>
+        <a href="#" class="sidebar-item">
+          <div class="nav-item-icon">
+            <i class="ion ion-android-textsms"></i>
+          </div>
+          <span class="nav-item">#item2</span>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div class="nav-item-icon">
+            <i class="ion-android-apps"></i>
+          </div>
+          <span class="nav-item">#item3</span>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div class="nav-item-icon">
+            <i class="ion-android-attach"></i>
+          </div>
+          <span class="nav-item">#item4</span>
+        </a>
+      </div>
+      <div class="content">
+        <div class="topbar">
+          <div class="top-right">
+            <div class="topbar-item">
+              <div class="nav-item-icon" id="toggleSidebar">
+                <i class="ion-navicon-round top-bar-title"></i>
+              </div>
+              <span class="top-bar-title toggle-sidebar">Collapse</span>
+            </div>
+          </div>
+          <div class="top-left"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="static/js/jquery/jquery.min.js" ></script>
+  <script src="static/js/index.js"></script>
+</html>
