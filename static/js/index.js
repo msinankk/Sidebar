@@ -3,7 +3,8 @@ $("#toggleSidebar,.toggle-sidebar").click(function (e) {
     $("#sidebar").toggleClass("sidebar-collapsed");
     $(".nav-item").toggleClass("nav-item-collapsed");    
     $(".profile-image-container").toggleClass("profile-image-container-collapsed");
-    $(".dropdown-items").removeClass("hovered");
+    $("#sidebar").removeClass("hovered");
+
     
     
 });
