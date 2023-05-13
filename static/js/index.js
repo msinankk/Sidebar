@@ -19,7 +19,7 @@ $(".nav-item--dropdown").click(function (e) {
     
 });
 
-$(".dropdown-items").hover(function () {
+$(".sidebar").hover(function () {
         // over
         if ($('#sidebar').hasClass('sidebar-collapsed')) {
             // Class exists
@@ -31,7 +31,7 @@ $(".dropdown-items").hover(function () {
         
     }, function () {
         // out
-        if ($(".dropdown-items").hasClass('hovered')) {
+        if ($(".sidebar").hasClass('hovered')) {
             // Class exists
             $("#sidebar").toggleClass("sidebar-collapsed");
             $(".nav-item").toggleClass("nav-item-collapsed");    
